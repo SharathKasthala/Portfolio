@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sharath Chandra - Portfolio</title>
+    <link rel="icon" type="image/x-icon" href="images/title.jpg">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/af74ed3db6.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="/images/logo.png" class="logo">
+                <ul id="side-menu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#whatido">ServicesProjects</a></li>
+                    <li><a href="#portfolio">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-regular fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <h1>Hi, I'm <span>Sharath Chandra</span></h1>
+                <p>Java Full Stack Developer</p>
+                <div class="social-icons" id="large">
+                    <a href="mailto:chandukasthala07@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+                    <a href="www.linkedin.com/in/sharathchandrakasthala"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/SharathKasthala"><i class="fa-brands fa-github"></i></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/Screenshot 2024-10-18 102454.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I'm a Information Technology Student at Sri Indu College of Engineering and Technology. With a passion for innovation, development and a drive for continuous learning. I enjoy solving complex problems and finding innovative solutions using my technical and analytical skills. I am always eager to learn new things and explore new opportunities in the field of software engineering.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                        
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Java Programming</span><br>Core Java and Advanced Java<br></li>
+                            <li><span>Java Full Stack Development</span><br>Full Stack Development using Java as Backend Programming Language</li>
+                            <li><span>Spring Framework</span><br>Spring Boot</li>
+                            <li><span>Relational Databases</span><br>MySQL, PostgreSQL</li>
+                            <li><span>Web Development</span><br>Html5, CSS3 and JavaScript</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Web Developer Intern</span><span id="eng">Nov 2023 - Dec 2023</span><br>Codsoft <br> Remote</li>
+                            <li><span>Problem Solving</span><br>Experience in Problem Solving using Data Structures and Algorithms</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>B-Tech in Information Technology</span><span id="eng">Nov 2021 - Jun 2025</span><br>Sri Indu College of Engineering and Technology </li>
+                            <li><span>Intermediate(XII)</span> <span id="inter">Jun 2019 - Jun 2021</span><br>Narayana Junior College</li>
+                            <li><span>SSC(X)</span><br>Vashista Model High School <span id="ssc">Apr 2019</span></li>
+                        </ul>
+                    </div>
+                </div>
+                
+
+            </div>
+        </div>
+    </div>
+
+    <div id="whatido">
+        <div class="container">
+            <h1 class="sub-title">What I Do</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-layer-group"></i>
+                    <h2>Full Stack Development</h2>
+                    <p>Experience in Java Full Stack Development using Spring Framework and Relational Databases. Developed Couple of applications using these technologies.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Problem Solving</h2>
+                    <p>I am continually enhancing my problem-solving skills by finding and optimizing effective solutions to various challenges..</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-globe"></i>
+                    <h2>Web Development</h2>
+                    <p>Experience in Web Technologies such as HTML5, CSS3 and Javascript. Developed some web pages using these technologies</p>
+                    <a href="#">Learn more</a>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">Projects</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work1.webp">
+                    <div class="layer">
+                        <h3>Shopping Mall Management System</h3>
+                        <p>Developed a web application for managing shopping malls using Java Spring Framework and MySQL as the relational Database</p>
+                        <a href="https://github.com/SharathKasthala/Shopping-Mall-Management-System"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work2.jpg">
+                    <div class="layer">
+                        <h3>Quiz Application</h3>
+                    <p>Developed a quiz application using Java, Spring Framework as Backend programming language and PostgreSQL as the relational database</p>
+                    <a href="https://github.com/SharathKasthala/Quiz_Application"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+                    
+                </div>
+                <div class="work">
+                    <img src="images/work3.png">
+                    <div class="layer">
+                        <h3>Calculator App</h3>
+                        <p>Developed a simple calculator application using HTML5, CSS3 and JavaScript </p>
+                        <a href="https://github.com/SharathKasthala/Calculator"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p> <i class="fa-solid fa-envelope"></i> chandukasthala07@gmail.com</p>
+                    <p> <i class="fa-solid fa-phone"></i> 9392538993</p>
+                    <div class="social-icons">
+                        <a href="mailto:chandukasthala07@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+                        <a href="www.linkedin.com/in/sharathchandrakasthala"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/SharathKasthala"><i class="fa-brands fa-github"></i></i></a>
+                    </div>
+                    <a href="images/Sharath Chandra.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; All rights reserved by Sharath Chandra
+        </div>
+    </div>
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links")
+        var tabcontents = document.getElementsByClassName("tab-contents")
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        var sidemenu = document.getElementById("side-menu")
+
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-150px";
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbw0az7kplE3sJ3Yc_FDtAUpWHRGIjjgWMHhTecILRRhF-o8C-bxbYhYh4_hApAqfBrpdw/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message sent successfully"
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                }, 5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
